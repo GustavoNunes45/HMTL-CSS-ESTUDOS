@@ -14,8 +14,15 @@ body {
  background-size: cover;
  text-shadow: 12px 1px px #000;
  backdrop-filter: blur(4px);
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
+html, body {
+    height: 100%;
+    overflow: hidden;
+  }
 
 .destaque{
     color: rgb(44, 213, 114);
